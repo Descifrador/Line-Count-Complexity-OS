@@ -7,7 +7,7 @@ This mini-project was developed for the partial fulfilment of the 2nd year, 4th 
 * [Pooja Nehra](https://github.com/pooja5101)
 
 Actual Project Statement
-> Using a Shell Script define a function count_lines that caounts the number of lines in the file provided asargument. Inside the functionthe value of the argument is retrieved by assessing the varible $1.
+> Using a Shell Script define a function count_lines that counts the number of lines in the file provided asargument. Inside the functionthe value of the argument is retrieved by assessing the varible $1.
 
 >Discuss the complexity of the code and propose your amendments.
 
