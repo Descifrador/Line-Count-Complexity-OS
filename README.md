@@ -12,7 +12,7 @@ Actual Project Statement
 >Discuss the complexity of the code and propose your amendments.
 
 ## Project Resources
-
+* [Project Report](https://github.com/Blitzar-to-Supernova/Line-Count-Complexity-OS/blob/master/project-resource/os_line_count.pdf)
 
 ## Get Started with the project
 1. Prerequisite 
@@ -27,18 +27,18 @@ Actual Project Statement
     ./complexity_test
     ```
 3. This will generate three files *timedur.txt*, *testfile.txt* and *comparefile.txt*. We can now use MatLab to plot the time complexity curve. You can run the above program multiple times with differnt output filename to get better average result.
-4. Open MatLab and import all *timedur.txt* and complexity_curve.m files. Currently the matlab function uses two runs of the program you can modify it to average as many runs you want. 
+4. Open MatLab and import all *timedur.txt* and `complexity_curve.m` files. Currently the matlab function uses two runs of the program you can modify it to average as many runs you want. 
 5. Run `complexity_curve` in MatLab command prompt. The curve will be plotted with the line fitting. 
 
 
 ## Analysis
 In our experiment we used a text file upto 1 Million lines and tracking the time taken by the script per 1000 line increment. Each line is a same random string of 1000 characters. Here is our result.
 
-![Time Complexity Curve](comcur.svg)
+![Time Complexity Curve](images/comcur.svg)
 
 As we can see the curve fitting is linear. However at many point result is far from being linear but for the average part we can assume it be linear. 
 
 We can improve the accuracy by running the program multiple time and plot the average result.
 
-We can conclude that the function runs in O(n) time. 
+We can infer that the function runs in O(n) time. 
 
