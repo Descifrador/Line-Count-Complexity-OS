@@ -11,6 +11,9 @@ Actual Project Statement
 
 >Discuss the complexity of the code and propose your amendments.
 
+## Project Resources
+
+
 ## Get Started with the project
 1. Prerequisite 
     * Any linux distribution because its a bash based project
@@ -31,7 +34,7 @@ Actual Project Statement
 ## Analysis
 In our experiment we used a text file upto 1 Million lines and tracking the time taken by the script per 1000 line increment. Each line is a same random string of 1000 characters. Here is our result.
 
-![Time Complexity Curve](comcur.png)
+![Time Complexity Curve](comcur.svg)
 
 As we can see the curve fitting is linear. However at many point result is far from being linear but for the average part we can assume it be linear. 
 
