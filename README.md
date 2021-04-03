@@ -22,7 +22,7 @@ Actual Project Statement
 2. Clone this repository and run make command
     ```
     git clone https://github.com/avinal/Line-Count-Complexity-OS
-    cd Line-Count-Complexity-OS
+    cd Line-Count-Complexity-OS/src
     make
     ./complexity_test
     ```
